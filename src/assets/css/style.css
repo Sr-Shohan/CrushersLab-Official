@@ -1321,7 +1321,7 @@ section {
 }
 
 #footer .copyright {
-  float: left;
+  float: center;
 }
 
 #footer .credits {
@@ -1332,7 +1332,7 @@ section {
 @media (max-width: 992px) {
   #footer .copyright, #footer .credits {
     float: none;
-    -moz-text-align-last: center;
-    text-align-last: center;
+
+    text-align: center;
   }
 }

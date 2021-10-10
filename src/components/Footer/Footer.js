@@ -31,7 +31,7 @@ export default function Footer() {
             </div>
             <div className="container footer-bottom clearfix">
                 <div className="copyright text-center ">
-                    <h6>copyright © CrushersLab Technologies Ltd</h6>
+                    <h6  > copyright © CrushersLab Technologies Ltd</h6>
                 </div>
             </div>
         </footer>

@@ -18,7 +18,7 @@ function Hero() {
                             <a href="#about" class="btn-get-started scrollto">Get Started</a>
 
                             <React.Fragment>
-                                <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="L61p2uyiMSo" onClose={() => setOpen(false)} />
+                                <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="8vXKMyn_mXM" onClose={() => setOpen(false)} />
                                 <a className="glightbox btn-watch-video">
                                     <i className="bi bi-play-circle" onClick={() => setOpen(true)} /><span>Watch Video</span></a>
 

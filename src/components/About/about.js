@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutImg from '../../assets/img/about.png'
+import aboutImg from '../../assets/img/about.svg'
 import check from '../../../node_modules/bootstrap-icons/icons/check-circle-fill.svg'
 
 function About() {
@@ -8,10 +8,13 @@ function About() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        <img src={aboutImg} className="img-fluid" alt="" />
+                        <img src={aboutImg} className="img-fluid" style={{
+                            maxWidth: '100%',
+                            height: '100%'
+                        }} alt="" />
                     </div>
                     <div className="col-lg-6 pt-4 pt-lg-0 content" style={{ textAlign: 'left' }}>
-                        <h3>Our Work Strategy </h3>
+                        <h3 style={{ fontFamily: 'rubik', fontWeight: '500' }}>Our Work Strategy </h3>
                         <p className="fst-italic">
                             We Follow the Rules that are Proven in Corporate World -
                         </p>
