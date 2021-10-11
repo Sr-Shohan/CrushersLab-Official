@@ -27,7 +27,7 @@ export default function Contact() {
                             <div className="phone">
                                 <i className="bi bi-phone" />
                                 <h4>Call:</h4>
-                                <p>+88 01608217323</p>
+                                <p>+88 01796063958</p>
                             </div>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14605.892155945265!2d90.3588734!3d23.7661639!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbc068af3bb11779a!2sCrushersLab!5e0!3m2!1sen!2sbd!4v1633774790057!5m2!1sen!2sbd" frameBorder={0} style={{ border: 0, width: '100%', height: '290px' }} allowFullScreen />
 
