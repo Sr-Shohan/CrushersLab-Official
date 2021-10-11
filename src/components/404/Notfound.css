@@ -1,0 +1,99 @@
+.notFound{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.imgDiv{
+
+    height: 80%;
+}
+@media only screen and (max-width: 600px) {
+    .imgDiv{
+        height: 60%;
+    }
+    h3{
+        padding: 0px 10%;
+    }
+  }
+
+
+  /* Back to home */
+
+  .backToHome {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+ 
+
+  .backToHome a{
+      border: 1px solid gray;
+      border-radius: 5px;
+      padding: 8px;
+      background:white;
+    
+  }
+  .backToHome  a:hover{
+      background: red;
+      color: white;
+      border: none;
+  }
+ 
+  
+  /* .notfound ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    border:  #5f687b ;
+  }
+  
+  .notfound li {
+    position: relative;
+    
+  }
+  
+  .notfound a, .notfound a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #6a7489;
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+  
+  .notfound a i, .notfound a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+  }
+  
+  .notfound a:hover, .notfound .active, .notfound .active:focus, .notfound li:hover > a {
+    color: red;
+  }
+  
+  .notfound .getstarted {
+    padding: 10px 25px;
+    margin-left: 30px;
+    border-radius: 4px;
+    line-height: 1;
+    color: #5f687b;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #cdd1d9;
+  }
+  
+  .notfound .getstarted:hover {
+    background: red;
+    color: #fff;
+    border-color: red;
+  } */
+  

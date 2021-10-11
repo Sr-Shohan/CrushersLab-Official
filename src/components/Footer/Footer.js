@@ -1,13 +1,13 @@
 import React from 'react'
-
+import './footer.css'
 export default function Footer() {
     return (
         <footer id="footer">
             <div className="footer-top">
                 <div className="container">
                     <div className="row  justify-content-center">
-                        <div className="col-lg-6">
-                            <h3>
+                        <div className="col-lg-6 Foo">
+                            <h3 >
                                 &lt; CrushersLab /&gt;
                             </h3>
                             <p>Your Trusted Digital Solution Partner </p>

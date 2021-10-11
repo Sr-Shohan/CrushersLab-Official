@@ -12,10 +12,12 @@ import Contact from '../Contact/contact';
 import Footer from '../Footer/Footer';
 import Notfound from '../404/Notfound';
 import Career from '../Career/Career';
+import Navbar from '../navbar/navbar';
+
 function MainComponent() {
     return (
         <div>
-
+            <Navbar />
             <Hero />
             <Main />
             <About />
