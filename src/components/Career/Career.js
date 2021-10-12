@@ -10,7 +10,7 @@ export default function Career() {
         <>
             <Navbar />
             <div >
-                <div className='career'>
+                <div className='career mt-5'>
                     <img src={Careerr} className='imgDiv' />
                 </div>
                 <p style={{ fontFamily: 'Rubik', fontStyle: 'italic', textAlign: 'center' }}>“Opportunities don’t happen, you create them.” — Chris Grosser</p>

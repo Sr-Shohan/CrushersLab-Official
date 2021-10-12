@@ -1,11 +1,11 @@
 import React from 'react'
 import './Hiring.css'
 import reactlogo from '../../../assets/img/react-logo.png'
-import { Link } from "react-router-dom";
+
 export default function Hiring() {
     return (
-        <div class="container ">
-            <div class="row ">
+        <div class="container">
+            <div class="row margin-bottoms ">
                 <h3 style={{ textAlign: 'center', marginTop: '2rem', fontWeight: '800' }}>INTERNSHIP OPPORTUNITY </h3>
                 <div class="col-xs-12 col-lg-6 hiring">
                     {/* job card */}

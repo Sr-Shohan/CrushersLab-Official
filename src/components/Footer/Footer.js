@@ -21,11 +21,11 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className="social-links">
-                        <a href="#" className="twitter"><i className="bi bi-twitter" /></a>
-                        <a href="https://www.facebook.com/crusherslab" className="facebook"><i className="bi bi-facebook" /></a>
-                        <a href="#" className="instagram"><i className="bi bi-instagram" /></a>
-                        <a href="#" className="google-plus"><i className="bi bi-skype" /></a>
-                        <a href="#" className="linkedin"><i className="bi bi-linkedin" /></a>
+                        <a target='_blank' href="#" className="twitter"><i className="bi bi-twitter" /></a>
+                        <a target='_blank' href="https://www.facebook.com/crusherslab" className="facebook"><i className="bi bi-facebook" /></a>
+                        <a target='_blank' href="#" className="instagram"><i className="bi bi-instagram" /></a>
+                        <a target='_blank' href="#" className="google-plus"><i className="bi bi-skype" /></a>
+                        <a target='_blank' href="https://www.linkedin.com/company/crusherslab-technologies-ltd/" className="linkedin"><i className="bi bi-linkedin" /></a>
                     </div>
                 </div>
             </div>
