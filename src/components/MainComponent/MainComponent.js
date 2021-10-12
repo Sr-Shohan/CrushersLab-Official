@@ -12,6 +12,7 @@ import Contact from '../Contact/contact';
 import Footer from '../Footer/Footer';
 
 import Navbar from '../navbar/navbar';
+import AboutUs from '../About us/AboutUs';
 
 function MainComponent() {
     return (
@@ -25,6 +26,8 @@ function MainComponent() {
             <Testimonial />
             <Contact />
             <Footer />
+            <AboutUs />
+
 
         </div>
     )
