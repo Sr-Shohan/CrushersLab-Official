@@ -18,7 +18,7 @@ function Navbar() {
                 <nav id="navbar" className={isClicked?['navbar','navbar-mobile'].join(' '):"navbar"}>
                     <ul>
                         <li className="active"><Link className="nav-link scrollto active" to="/">Home</Link></li>
-                        <li><Link className="nav-link scrollto" to={{ pathname: '/', hash: '#services' }}>Services</Link></li>
+                        <li><a className="nav-link scrollto" href='#services'>Services</a></li>
 
                         {/* <li><a className="nav-link scrollto " href="#portfolio">Portfolio</a></li> */}
                         <li className="dropdown"><a href="#"><span>About Us</span> <i className="bi bi-chevron-down" /></a>
