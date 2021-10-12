@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-.navbar a, .navbar a:focus {
+.navbar a, .navbar a:focus:not(.getstarted) {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -244,7 +244,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle.bi-x {
-  color: #fff;
+  color: rgb(8, 8, 8);
 }
 
 @media (max-width: 991px) {
