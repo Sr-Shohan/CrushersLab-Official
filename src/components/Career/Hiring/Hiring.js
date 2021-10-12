@@ -55,11 +55,6 @@ export default function Hiring() {
 
                         </div>
                     </div>
-
-
-
-
-
                 </div>
 
             </div>

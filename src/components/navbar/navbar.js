@@ -11,7 +11,7 @@ function Navbar() {
 
                 <nav id="navbar" className="navbar">
                     <ul>
-                        <li className="active"><Link className="nav-link scrollto active" to="/">Home</Link></li>
+                        <li className=""><Link className="nav-link scrollto active" to="/">Home</Link></li>
                         <li><a className="nav-link scrollto" href='#services'>Services</a></li>
 
                         {/* <li><a className="nav-link scrollto " href="#portfolio">Portfolio</a></li> */}
@@ -20,7 +20,8 @@ function Navbar() {
                                 <li><a href="/">Our Team </a></li>
 
                                 <li><a href="/">Media</a></li>
-                                <li><a href="/">About Us</a></li>
+                                <li><Link to='/aboutus'>About Us</Link></li>
+
                             </ul>
                         </li>
                         <li><a className="nav-link scrollto" href="/#contact">Contact</a></li>

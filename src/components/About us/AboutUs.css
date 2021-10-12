@@ -1,0 +1,21 @@
+.about-us{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: rgba(179, 172, 172, 0.315);
+}
+
+.imgDiv{
+
+    height: 80%;
+}
+@media only screen and (max-width: 600px) {
+    .imgDiv{
+        height: 60%;
+    }
+    h3{
+        padding: 0px 10%;
+    }
+  }
