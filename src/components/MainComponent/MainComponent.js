@@ -26,7 +26,7 @@ function MainComponent() {
             <Testimonial />
             <Contact />
             <Footer />
-            <AboutUs />
+
 
 
         </div>
